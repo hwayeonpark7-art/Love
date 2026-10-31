@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#efe3d2"><meta name="description" content="A little world made with love for our third anniversary.">
+<title>Three Years of Us — for Baby ♡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Parisienne&display=swap');
+:root{--paper:#f4eddf;--paper2:#fffaf0;--ink:#40352f;--muted:#85766a;--wine:#7d4d52;--rose:#c18d88;--sage:#87917a;--line:#d9cbbb;--shadow:0 22px 70px #44352b24}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#d8c8b7;color:var(--ink);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.13;background-image:radial-gradient(#554338 .55px,transparent .65px);background-size:7px 7px;mix-blend-mode:multiply}
+button{font:inherit}.cover{min-height:100svh;display:grid;place-items:center;padding:22px;background:radial-gradient(ellipse at 12% 12%,#fff9e9 0,transparent 36%),radial-gradient(ellipse at 90% 90%,#b98b7f55 0,transparent 36%),#e5d6c4}
+.cover-card{position:relative;width:min(100%,780px);padding:clamp(26px,6vw,58px);background:var(--paper2);border:1px solid #cbb9a4;box-shadow:var(--shadow);text-align:center;transform:rotate(-.35deg)}.cover-card:before{content:"";position:absolute;inset:12px;border:1px dashed #bba38d;pointer-events:none}.eyebrow,.kicker{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}.cover-title{font:clamp(58px,11vw,112px)/.88 'Parisienne',cursive;color:var(--wine);margin:20px 0 10px}.cover-sub{font:clamp(19px,3vw,26px)/1.3 'Cormorant Garamond',serif;max-width:520px;margin:0 auto 22px}.cover-photos{display:grid;grid-template-columns:1fr 1.12fr 1fr;gap:12px;align-items:center;max-width:580px;margin:25px auto}.cover-photos figure{margin:0;padding:7px 7px 26px;background:#fff;box-shadow:0 8px 20px #392a241f;transform:rotate(-3deg)}.cover-photos figure:nth-child(2){transform:rotate(2deg)}.cover-photos figure:nth-child(3){transform:rotate(-1deg)}.cover-photos img{width:100%;height:clamp(125px,25vw,210px);object-fit:cover}.cover-photos figcaption{font:15px 'Parisienne',cursive;color:#705b4f;margin-top:5px}.primary{border:0;background:var(--wine);color:white;padding:14px 25px;border-radius:2px;letter-spacing:.08em;text-transform:uppercase;font-size:11px;cursor:pointer;box-shadow:0 8px 20px #75474a33;transition:.2s}.primary:hover{transform:translateY(-2px)}.cover-foot{font:17px 'Parisienne',cursive;color:var(--muted);margin-top:17px}
+#book{display:none;max-width:1000px;margin:22px auto 70px;background:var(--paper);box-shadow:var(--shadow);min-height:80vh}.toolbar{position:sticky;top:0;z-index:20;background:#f8f1e6ed;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 18px}.brand{font:25px 'Parisienne',cursive;color:var(--wine)}.counter{font-size:10px;letter-spacing:.13em;color:var(--muted);text-transform:uppercase}.progress{height:2px;background:#e1d5c6}.progress span{display:block;height:100%;width:16.66%;background:var(--wine);transition:width .3s}.page{display:none;min-height:calc(100svh - 70px);padding:clamp(28px,6vw,72px);position:relative;animation:appear .45s ease both}.page.active{display:block}@keyframes appear{from{opacity:0;transform:translateX(15px)}to{opacity:1;transform:none}}.page:after{content:"";position:absolute;inset:14px;border:1px solid #d9cbbb;pointer-events:none}.page-inner{position:relative;z-index:1;max-width:790px;margin:auto}.chapter{font-size:10px;letter-spacing:.23em;text-transform:uppercase;color:var(--sage)}h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:500}h2{font-size:clamp(42px,7vw,72px);line-height:.98;color:var(--wine);margin:13px 0 18px}.lede{font:italic 23px/1.35 'Cormorant Garamond',serif;color:#75645a}.body-copy{font:19px/1.7 'Cormorant Garamond',serif;color:#51443c}.body-copy p{margin:0 0 15px}.ornament{text-align:center;color:var(--rose);font-size:21px;letter-spacing:.45em;margin:25px 0}.story-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:start}.story-note{background:#e9dfcf;padding:24px;transform:rotate(1deg);font:italic 20px/1.45 'Cormorant Garamond',serif;color:#705b4f;border-left:3px solid var(--rose)}.timeline{border-left:1px solid #c5ab99;margin:30px 0 0 8px;padding-left:25px}.moment{position:relative;margin:0 0 24px}.moment:before{content:"";position:absolute;width:9px;height:9px;background:var(--rose);border-radius:50%;left:-30px;top:8px}.moment b{font:600 12px 'DM Sans',sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--wine)}.moment p{margin:6px 0 0;font:18px/1.55 'Cormorant Garamond',serif}.quote{font:clamp(27px,4vw,39px)/1.25 'Parisienne',cursive;text-align:center;color:var(--wine);max-width:620px;margin:34px auto}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin:30px 0}.polaroid{margin:0;background:#fff;padding:8px 8px 29px;box-shadow:0 9px 24px #45352a1c;transform:rotate(var(--r));}.polaroid:nth-child(3n+2){--r:1.5deg}.polaroid:nth-child(3n+1){--r:-1.7deg}.polaroid:nth-child(3n){--r:.6deg}.polaroid img{display:block;width:100%;height:clamp(150px,23vw,235px);object-fit:cover}.polaroid figcaption{font:16px 'Parisienne',cursive;color:#66564b;text-align:center;padding-top:7px}.trip-caption{text-align:center;font:italic 19px 'Cormorant Garamond',serif;color:var(--muted)}.reason-text{background:#fbf7ed;border:1px solid var(--line);padding:clamp(22px,4vw,42px);font:18px/1.75 'Cormorant Garamond',serif}.reason-text p{margin:0 0 14px}.reason-text p:last-child{margin-bottom:0}.final-photos{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;margin:24px 0}.final-photos img{width:100%;height:clamp(90px,16vw,150px);object-fit:cover;border:6px solid #fff;box-shadow:0 4px 12px #4a38291c}.anniv-letter{max-width:720px;margin:30px auto;font:19px/1.7 'Cormorant Garamond',serif;color:#51443c}.anniv-letter p{margin:0 0 15px}.anniv-letter .soft{text-align:center;color:var(--rose);letter-spacing:.4em;margin:25px}.wish{text-align:center;padding:20px 0 10px}.wish h3{font:clamp(49px,9vw,83px)/.95 'Parisienne',cursive;color:var(--wine);margin:14px 0}.wish p{font:20px/1.5 'Cormorant Garamond',serif;color:#75645a}.signature{font:32px 'Parisienne',cursive;color:var(--wine);margin-top:20px}.nav{display:flex;justify-content:space-between;align-items:center;gap:15px;margin:32px auto 0;max-width:790px;position:relative;z-index:2}.nav button{background:transparent;border:1px solid #bda999;color:var(--wine);padding:11px 18px;cursor:pointer;font-size:11px;letter-spacing:.08em;text-transform:uppercase}.nav button:disabled{opacity:.3;cursor:default}.nav .dots{font-size:11px;color:var(--muted);letter-spacing:.25em}.end-note{text-align:center;font:italic 16px 'Cormorant Garamond',serif;color:var(--muted);margin-top:18px}
+@media(max-width:650px){#book{margin:0 auto}.page{padding:30px 25px 35px;min-height:calc(100svh - 55px)}.page:after{inset:8px}.story-grid{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr);gap:12px}.polaroid img{height:190px}.final-photos{grid-template-columns:repeat(3,1fr)}.final-photos img{height:115px}.toolbar{padding:10px 14px}.brand{font-size:22px}.cover-card{padding:32px 22px}.cover-photos{gap:7px}.cover-photos figure{padding:5px 5px 20px}.cover-photos figcaption{font-size:13px}.body-copy{font-size:18px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style></head>
+<body>
+<section class="cover" id="cover"><div class="cover-card">
+ <div class="eyebrow">a little keepsake · november 2</div><h1 class="cover-title">Three Years<br>of Us</h1>
+ <p class="cover-sub">For my Baby, my Haggu — from your Jaan, with all the love I don't always know how to say out loud.</p>
+ <div class="cover-photos">
+  <figure><img src="assets/cover-01.jpg" alt="A favourite moment together"><figcaption>you & me</figcaption></figure>
+  <figure><img src="assets/cover-02.jpg" alt="A memory together"><figcaption>my person</figcaption></figure>
+  <figure><img src="assets/cover-03.jpg" alt="A little moment together"><figcaption>always us</figcaption></figure>
+ </div>
+ <button class="primary" onclick="startBook()">Open our little book ♡</button><div class="cover-foot">made with love, memories & a little bit of chaos</div>
+</div></section>
+<main id="book">
+ <header class="toolbar"><div class="brand">Jaan ♡ Baby</div><div class="counter" id="counter">chapter 1 of 6</div></header><div class="progress"><span id="progress"></span></div>
+ <section class="page active" data-title="The beginning"><div class="page-inner">
+  <div class="chapter">01 · where it all began</div><h2>Before I knew it,<br>it was you. ♡</h2>
+  <p class="lede">I didn't know that one ordinary batch meet would become the beginning of my favourite story.</p>
+  <div class="story-grid"><div class="body-copy">
+   <p>I still remember first noticing you at our batch meet. I wasn't even feeling well that day, and somehow, one of the first things you did was carry my bag for me.</p>
+   <p>It was such a small thing. I thanked you later on Messenger, and that little conversation became a reason for us to keep talking. Then came the little favours, the teasing, the flirting that slowly became part of our everyday conversations.</p>
+   <p>There was our first waffle date, and the journey home together. I remember feeling a little awkward when things got close too quickly, so I pretended to fall asleep. Even then, those early moments stayed with me.</p>
+   <p>And then Kathmandu. You told me how you felt, and I needed time. I didn't give you an immediate yes. But even while I was away on a family trip, we kept texting. Somewhere in all those conversations, my answer became clear.</p>
+   <p>I said yes the day before my birthday. And just like that, November 2 became ours.</p>
+  </div><aside class="story-note">“Some stories begin with grand gestures. Ours began with a bag, a thank-you message, a waffle date, and two people who kept finding reasons to talk.”<div class="ornament">♡ ✦ ♡</div></aside></div>
+  <div class="quote">And before I knew it, you weren't just someone I talked to. You were my person.</div>
+ </div></section>
+ <section class="page" data-title="The real us"><div class="page-inner">
+  <div class="chapter">02 · the chapters that tested us</div><h2>It wasn't always easy.<br>But it was us.</h2>
+  <p class="lede">A love story isn't only the pretty pictures. It's also the days when choosing each other takes courage.</p>
+  <div class="body-copy">
+   <p>We come from different religious backgrounds, and we both know our families and the expectations around us can make the future feel complicated. There have been moments when that reality felt bigger than the two of us, and moments when we were scared of what might happen.</p>
+   <p>Our first breakup came after around eight or nine months, when a misunderstanding involving a male friend reached my mother. Things became overwhelming at home, and when her health and blood pressure were affected, I felt caught in the middle of everything. We stayed apart for about fifteen to twenty days.</p>
+   <p>It was my best friend and her boyfriend who helped bring us back into the same room and encouraged us to talk. We found our way back to each other, even though the pressure didn't magically disappear. When our families found out, things became difficult again.</p>
+   <p>What I remember is that you stood by me. You defended me, and you didn't make me feel like I had to face everything alone. We still had arguments, misunderstandings and imperfect days — but we also had trips, cuddles, study sessions, laughter and all the ordinary moments that reminded me why I wanted us.</p>
+   <p>Now, when distance keeps us apart for a while, I miss those simple things more than I can explain. I miss being able to see you, sit beside you, and make an ordinary day feel like ours.</p>
+  </div>
+  <div class="quote">Not perfect. Not always simple. Still a story we have both had a hand in writing.</div>
+ </div></section>
+ <section class="page" data-title="Little moments"><div class="page-inner">
+  <div class="chapter">03 · places, dates & little memories</div><h2>All the little moments<br>I'll keep forever. ♡</h2>
+  <p class="lede">The birthdays, the trips, the silly conversations, the in-between moments. The things that became memories without asking permission.</p>
+  <div class="body-copy"><p>We've celebrated birthdays together, and our anniversary comes just one day before mine — so November 2 has always felt like the beginning of a whole little season of us.</p>
+   <p>There was Darjeeling, first with my five girlfriends and you as the only guy in the group. Then another Darjeeling trip with my best friend and her boyfriend. We wandered around, had our staycation, laughed over silly conversations, and made memories that still make me smile.</p>
+   <p>There was Siliguri, just the two of us, when you had to sort out your dollar-related errand. There were the stopovers and little chances to see each other while travelling between Nepal and Bangladesh, and all the random dates in between.</p>
+   <p>And then there are the moments that don't need a location: our banter, our little fights, making up, cuddling, sharing a blanket, and simply being together. I don't think you realise how much I treasure those ordinary moments.</p></div>
+  <div class="gallery">
+   <figure class="polaroid"><img src="assets/darjeeling-01.jpg" alt="Darjeeling memory"><figcaption>one of our mountain chapters</figcaption></figure>
+   <figure class="polaroid"><img src="assets/darjeeling-02.jpg" alt="Darjeeling memory"><figcaption>out exploring together</figcaption></figure>
+   <figure class="polaroid"><img src="assets/darjeeling-03.jpg" alt="Darjeeling memory"><figcaption>my favourite travel partner</figcaption></figure>
+   <figure class="polaroid"><img src="assets/darjeeling-04.jpg" alt="Darjeeling memory"><figcaption>little memories, big feelings</figcaption></figure>
+   <figure class="polaroid"><img src="assets/darjeeling-05.jpg" alt="Darjeeling memory"><figcaption>somewhere with you</figcaption></figure>
+   <figure class="polaroid"><img src="assets/darjeeling-06.jpg" alt="Darjeeling memory"><figcaption>the view was lovely</figcaption></figure>
+   <figure class="polaroid"><img src="assets/darjeeling-07.jpg" alt="Darjeeling memory"><figcaption>and so was the company</figcaption></figure>
+  </div><p class="trip-caption">Seven little frames from a place that gave us so many stories. ♡</p>
+ </div></section>
+ <section class="page" data-title="Things I love"><div class="page-inner">
+  <div class="chapter">04 · the little things</div><h2>All the little things<br>I love about you. ♡</h2>
+  <div class="reason-text">
+   <p>Baby, I don't think you realise how many little things I love about you.</p>
+   <p>And when I say little things, I don't necessarily mean grand gestures or romantic surprises. I mean the tiny things you do, sometimes without even realising that I'm noticing them.</p>
+   <p>First of all, I love how patient you are with me.</p>
+   <p>Because let's be honest, I'm not exactly the most patient person in the world. My patience runs out pretty quickly, I get annoyed easily, and sometimes I get angry over the smallest things.</p>
+   <p>And somehow, you handle me.</p>
+   <p>Even after our stupid arguments, you're usually the one who comes after me. I'd say 95% of the time, you're the one trying to make things right. Sometimes the mistake is even mine, but somehow you still end up being the one apologising and trying to make me feel better.</p>
+   <p>I know I can be difficult sometimes, and I know I don't always make things easy for you.</p>
+   <p>But I notice your patience. I notice your efforts. And I appreciate them more than I probably tell you.</p>
+   <p>I love how kind you are, too.</p>
+   <p>Not just to me, but to people in general. I remember how whenever we see someone begging on the street, you try to give them something. And even when you don't have money with you, you'll ask me if I have some so that you can give it to them.</p>
+   <p>It's such a small thing, but it tells me so much about the kind of person you are.</p>
+   <p>I love that kindness in you.</p>
+   <p>I love how well you understand me. How you know when I'm being dramatic, when I'm upset, when I'm overthinking and sometimes even when I need a little extra attention.</p>
+   <p>I love knowing that you genuinely love me. That you cherish me, make me feel special and remind me that I'm someone you want in your life.</p>
+   <p>And I absolutely love how you make me smile.</p>
+   <p>You have this particular talent for making me laugh, even when I'm annoyed with you. Especially when you're teasing me. Although, sometimes you really do take it too far and then have to deal with an angry girlfriend!</p>
+   <p>But I love that playful side of you.</p>
+   <p>Actually, I think one of my favourite things about you is that little childish side you have. That inner child you let out when you're with me.</p>
+   <p>I love seeing that version of you. The silly, playful, sometimes ridiculous version that makes me feel like we can just forget about everything else and be two little kids together.</p>
+   <p>I hope you never lose that part of yourself.</p>
+   <p>And then there are your little flowers.</p>
+   <p>Oh, how I love those!</p>
+   <p>The way you sometimes pluck a few little flowers for me before we go on a date. They're not expensive bouquets or some elaborate surprise. Just little flowers you picked along the way because you wanted to bring me something.</p>
+   <p>And honestly, I think those are some of my favourite gifts.</p>
+   <p>Because it's not about the flowers themselves. It's about the fact that you thought of me.</p>
+   <p>I love how you take care of me, how you try to understand me, how you put up with my impatience and how you somehow know how to handle me when I'm being immature.</p>
+   <p>Sometimes I think you have to be the more mature one between us, especially when I'm busy being dramatic!</p>
+   <p>But that's another thing I love about you. You meet me with patience even when I don't have much of it myself.</p>
+   <p>And Baby, I could keep going.</p>
+   <p>I love your kindness. I love your personality. I love your playful side. I love the way you treat me. I love the way you make me feel.</p>
+   <p>I love the person you are when we're together, and I love the person you are even when we're not.</p>
+   <p>I don't think I can make a complete list of everything I love about you because I would probably keep remembering more things every time I thought I was done.</p>
+   <p>So, I guess I'll just say this:</p>
+   <p>I don't just love the way you love me. I love YOU.</p>
+   <p>Your heart, your personality, your little habits, your silly side, your kindness, your patience and all the little things that make you who you are.</p>
+   <p>I love you as a whole, Baby.</p>
+   <p>And I hope you never forget how much I adore you. ♡</p>
+  </div>
+ </div></section>
+ <section class="page" data-title="My anniversary letter"><div class="page-inner">
+  <div class="chapter">05 · the words I want you to keep</div><h2>If I Could Tell You<br>One Thing… ♡</h2>
+  <p class="lede">For my Baby, my Haggu — a little piece of my heart, saved here for you.</p>
+  <div class="final-photos"><img src="assets/letter-01.jpg" alt="A memory together"><img src="assets/letter-02.jpg" alt="A memory together"><img src="assets/letter-03.jpg" alt="A memory together"><img src="assets/letter-04.jpg" alt="A memory together"><img src="assets/letter-05.jpg" alt="A memory together"></div>
+  <article class="anniv-letter">
+   <p>Baby,</p>
+   <p>If I could tell you one thing right now, it would be that I really, really miss you.</p>
+   <p>And I don't think I can properly explain how different everything feels without you here.</p>
+   <p>It's not like I'm alone. There are so many people around me. I live with people, I talk to people, I have friends around me. But somehow, there's still this little emptiness that I can't quite explain.</p>
+   <p>It's like there's a space that nobody else can fill.</p>
+   <p>Sometimes, I'll randomly think about how we used to study together.</p>
+   <p>You know how I would barely study at first, and you'd be sitting there, actually concentrating on your books? And then I'd look at you, see you studying so seriously, and somehow get motivated myself.</p>
+   <p>I'd start studying too, and we'd just sit there together, doing our own things.</p>
+   <p>I miss that.</p>
+   <p>I miss having you around, Baby. I miss looking at you and feeling like everything is okay. There's something about having you beside me that makes me feel so secure. Like everything is in its place, like I don't have to worry too much because you're there.</p>
+   <p>And right now, everything feels so messed up and jumbled.</p>
+   <p>Sometimes, even when I'm surrounded by people, I feel so alone. I get emotional randomly, and I find myself wishing you were here.</p>
+   <p>I'm going to miss you so much for our anniversary. I'm going to miss you on my birthday. And honestly, I'm going to miss all those little things that I probably wouldn't even think twice about if you were here.</p>
+   <p>It's a different kind of feeling, Baby. One that I don't think I can properly put into words.</p>
+   <p>And I know we're not perfect. We have our ups and downs, our fights, our misunderstandings and all those moments when things get difficult.</p>
+   <p>But even after all of that, I still see you as the person I want to choose.</p>
+   <p>I want you to know that as long as you keep treating me right, as long as you continue to love and respect me, I will keep choosing you. No matter how difficult things get, no matter how messy life becomes, I still want to figure things out with you.</p>
+   <p>Of course, if you ever start treating me badly, that's a different story. I'm not going to stay somewhere I'm not valued. You know that. But as long as we're good to each other, I don't want to give up on us just because things get hard.</p>
+   <p>And I think you already know this.</p>
+   <p>You know how much you mean to me, even if I don't always manage to say it.</p>
+   <p>Because, Baby, I'm genuinely one of the least expressive people when it comes to saying how I feel.</p>
+   <p>I swear, I'll prepare a whole speech in my head. I'll rehearse what I want to tell you a hundred times. I'll think, Okay, next time I'm going to say this properly. I'm going to tell him exactly how I feel.</p>
+   <p>And then the moment comes, and I can't even get the words out.</p>
+   <p>It's almost funny how much I have to say inside my head and how little actually comes out of my mouth.</p>
+   <p>But I'm trying.</p>
+   <p>I'm trying to express myself better. I'm trying to tell you these things instead of keeping everything inside. And I hope you understand that just because I don't always say it doesn't mean I don't feel it.</p>
+   <p>I know I'm not a perfect girlfriend. I have my moods, my temper, my overthinking and my moments. But I also know that I love you genuinely, and I try in my own ways to make this relationship work.</p>
+   <p>And I hope you know how much I appreciate you.</p>
+   <p>I don't know when I'll get to see you next, when we'll sit together and study again, or when I'll get to have you beside me and feel that familiar sense of comfort.</p>
+   <p>But I am looking forward to all of it.</p>
+   <p>Until then, just know that there's a girl here who misses you more than she can explain, who randomly thinks about your little study sessions together, who wishes you were here for all the special days coming up, and who is still choosing you.</p>
+   <p>Even when I can't find the right words, even when I get emotional halfway through saying something, even when I just end up saying nothing…</p>
+   <p>I hope you never doubt how much I love you.</p>
+   <p>I miss you, Baby. Not just on the special days, but in all the ordinary little moments when I wish you were here.</p>
+   <p>And I can't wait to have those moments with you again.</p>
+   <div class="soft">♡ ✦ ♡</div><p>Love you. Always. ♡</p>
+  </article>
+  <div class="wish"><div class="kicker">and now, the actual anniversary wish</div><h3>Happy 3rd Anniversary,<br>Baby! ♡</h3><p>Three years of you and me. Three years of growing, learning, laughing, fighting, making up, and choosing each other. I wish I could be right beside you today, holding your hand and celebrating us properly. Until I can, let this little scrapbook hold all the hugs and kisses I owe you.</p><p>Here's to everything we've been, everything we are, and all the beautiful little chapters still waiting for us. No matter the distance, you're still my favourite person and my favourite place to come home to.</p><div class="signature">I love you, my Ashif. Always yours, your Jaan ♡</div></div>
+ </div></section>
+ <nav class="nav"><button id="prev" onclick="move(-1)" disabled>← Previous</button><span class="dots" id="dots">♡ · · · · ·</span><button id="next" onclick="move(1)">Next chapter →</button></nav><div class="end-note">made with love, for Ashif — from your Jaan ♡</div>
+</main>
+<script>
+let current=0;const pages=[...document.querySelectorAll('.page')];function startBook(){document.getElementById('cover').style.display='none';document.getElementById('book').style.display='block';show(0);window.scrollTo({top:0,behavior:'smooth'});}
+function show(n){current=Math.max(0,Math.min(pages.length-1,n));pages.forEach((p,i)=>p.classList.toggle('active',i===current));document.getElementById('counter').textContent=`chapter ${current+1} of ${pages.length} · ${pages[current].dataset.title}`;document.getElementById('progress').style.width=((current+1)/pages.length*100)+'%';document.getElementById('prev').disabled=current===0;document.getElementById('next').disabled=current===pages.length-1;document.getElementById('next').textContent=current===pages.length-1?'The end ♡':'Next chapter →';document.getElementById('dots').textContent=pages.map((_,i)=>i===current?'♥':'·').join(' ');window.scrollTo({top:0,behavior:'smooth'});}
+function move(d){show(current+d)}document.addEventListener('keydown',e=>{if(document.getElementById('book').style.display==='block'){if(e.key==='ArrowRight')move(1);if(e.key==='ArrowLeft')move(-1)}});
+</script></body></html>
